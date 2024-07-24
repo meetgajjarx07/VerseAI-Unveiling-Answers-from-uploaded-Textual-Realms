@@ -6,6 +6,7 @@
 [![Size][size-shield]][size-url]
 [![Issues][issues-shield]][issues-url]
 
+
 </div>
 
 ## About The Project
@@ -43,7 +44,7 @@ Make sure that you have the following:
 
 2. **Create a Conda environment**:
     ```sh
-    conda create -n verseai python=3.8
+    conda create -n verseai 
     conda activate verseai
     ```
 
