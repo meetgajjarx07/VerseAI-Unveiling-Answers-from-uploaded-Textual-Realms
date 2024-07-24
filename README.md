@@ -104,7 +104,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 [contri-shield]: https://img.shields.io/github/contributors/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms?style=for-the-badge
 [contri-url]: https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms/graphs/contributors
