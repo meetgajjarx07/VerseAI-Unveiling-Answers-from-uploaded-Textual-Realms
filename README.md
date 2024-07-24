@@ -94,11 +94,7 @@ Here's a brief example to get you started:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
@@ -106,9 +102,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contact
-
-For any questions or suggestions, please open an issue or contact the repository owner.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
