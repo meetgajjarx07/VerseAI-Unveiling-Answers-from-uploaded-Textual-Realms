@@ -1,52 +1,66 @@
-# VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms
+<div align="center">
+<h1 align="center">VerseAI: Unveiling Answers from Uploaded Textual Realms</h1>
 
+[![Languages][language-shield]][language-url]
+[![Contributors][contri-shield]][contri-url]
+[![Size][size-shield]][size-url]
+[![Issues][issues-shield]][issues-url]
 
-```markdown
-# VerseAI: Unveiling Answers from Uploaded Textual Realms
+</div>
+
+## About The Project
+
+https://github.com/user-attachments/assets/3c2dd89c-7436-495e-93a4-1dbad709491d
 
 VerseAI is an intelligent chatbot that leverages advanced large language models (LLMs) to provide answers based on the content of uploaded text files. Users can upload various text files and ask questions, to which VerseAI will respond by analyzing the uploaded content.
 
-## Features
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- **Supports Multiple File Types**: Upload text files in formats such as TXT, PDF, DOCX, PPTX, XLSX, and more.
-- **Advanced Embeddings**: Uses the `BAAI/bge-large-en-v1.5` model from HuggingFace for generating embeddings.
-- **Powerful LLM**: Leverages `llama3-70b-8192` from Groq for answering questions.
-- **Streamlit Interface**: User-friendly interface for uploading files and asking questions.
-- **Respectful Responses**: Answers questions in a polite and respectful manner.
+### Built With
 
-## Prerequisites
+* [Python](https://www.python.org/)
+* [Streamlit](https://streamlit.io/)
+* [HuggingFace](https://huggingface.co/)
+* [Groq](https://groq.com/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
+
+### Prerequisites
+
+Make sure that you have the following:
 - [Conda](https://docs.conda.io/en/latest/miniconda.html)
 - Python 3.8 or later
 
-## Installation
-
-To run this project, you need to have Conda installed. Follow these steps to set up the project:
+### Installation
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/verseai.git
+    ```sh
+    git clone https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms.git
     cd verseai
     ```
 
 2. **Create a Conda environment**:
-    ```bash
+    ```sh
     conda create -n verseai python=3.8
     conda activate verseai
     ```
 
 3. **Install dependencies**:
-    ```bash
+    ```sh
     pip install -r requirements.txt
     ```
 
 4. **Add your Groq API Key**:
     Replace `'ADD YOUR GROQ API KEY'` in the `load_llm` function in `main.py` with your actual Groq API key.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Usage
 
 1. **Run the Streamlit app**:
-    ```bash
+    ```sh
     streamlit run main.py
     ```
 
@@ -54,50 +68,57 @@ To run this project, you need to have Conda installed. Follow these steps to set
 
 3. **Ask Questions**: Type your question in the text input box and receive answers based on the content of your uploaded files.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Project Structure
 
 - **main.py**: Contains the main application logic and Streamlit interface.
 - **doc_em.py**: Handles loading and processing of documents, including splitting text and generating embeddings.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Example
 
 Here's a brief example to get you started:
 
-1. Start the Streamlit app:
-    ```bash
+1. **Start the Streamlit app**:
+    ```sh
     streamlit run main.py
     ```
 
-2. Upload your text files (e.g., PDF, DOCX).
+2. **Upload your text files (e.g., PDF, DOCX).**
 
-3. Enter a question in the text input box.
+3. **Enter a question in the text input box.**
 
-4. Get a response based on the uploaded files.
+4. **Get a response based on the uploaded files.**
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
 For any questions or suggestions, please open an issue or contact the repository owner.
 
----
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Enjoy using VerseAI! Let the answers to your inquiries be unveiled from your textual realms.
-```
+[contri-shield]: https://img.shields.io/github/contributors/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms?style=for-the-badge
+[contri-url]: https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms/graphs/contributors
+[size-shield]: https://img.shields.io/github/repo-size/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms?style=for-the-badge
+[size-url]: https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms
+[issues-shield]: https://img.shields.io/github/issues/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms?style=for-the-badge
+[issues-url]: https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms/issues
+[language-shield]: https://img.shields.io/github/languages/count/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms?style=for-the-badge
+[language-url]: https://github.com/meetgajjarx07/VerseAI-Unveiling-Answers-from-uploaded-Textual-Realms
 
-Additionally, you'll need a `requirements.txt` file to list the dependencies. Here's a basic example:
 
-```plaintext
-streamlit
-langchain
-huggingface_hub
-chroma
-```
-
-Ensure to include any other dependencies your project requires. Adjust the versions as necessary for compatibility.
